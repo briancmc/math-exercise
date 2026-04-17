@@ -185,7 +185,7 @@ function App() {
       const d = new Date();
       const dateOnly = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, '0') + "-" + String(d.getDate()).padStart(2, '0');
       
-      const url = "https://script.google.com/macros/s/AKfycbwciXrI8pM76raOciKebNowtHtEVNgab4El6IIfBXRVRLfszVPEcEsb1BvseWSYWcLW/exec";
+      const url = "******"; // masked google sheet web app link
       fetch(url, {
         method: "POST",
         mode: "no-cors", 
